@@ -1,0 +1,14 @@
+langchain-core
+langchain-community
+langchain-classic
+langchain-text-splitters
+langchain-experimental
+langchain-huggingface
+langchain-chroma
+langchain-groq
+sentence-transformers
+rank-bm25
+pydantic
+python-dotenv
+PyMuPDF
+unstructured[all-docs]
