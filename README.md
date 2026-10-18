@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Local RAG Assistant
 
 A document question-answering project with local Hugging Face embeddings, ChromaDB persistence, BM25 plus MMR retrieval, query variation fusion, cross-encoder reranking, and Groq generation. PDF ingestion supports Unstructured-based tables and image captioning, with PyMuPDF text extraction as a fallback.
@@ -56,3 +57,7 @@ The defaults store the ChromaDB collection in `db/chroma_db`. Set `RAG_DOCS_PATH
 ## Behavior notes
 
 The retrieval pipeline keeps the original model choices, prompts, chunk sizes, retrieval weights, candidate counts, and fusion settings. Conversation history exists in memory for one process and is not persisted.
+=======
+# advanced-rag-chatbot
+An advanced RAG chatbot featuring multimodal document ingestion, semantic chunking, hybrid retrieval, Reciprocal Rank Fusion (RRF), reranking, and conversational history for context-aware question answering.
+>>>>>>> ce020f9e79082cd3f4bcc971fd472aecaa3f3079
